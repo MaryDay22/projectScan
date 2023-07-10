@@ -1,0 +1,128 @@
+.search {
+    padding: 69px 43px 64px 53px;
+    position: relative;
+}
+
+.search h2 {
+    text-transform: uppercase;
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    margin-bottom: 25px;
+}
+
+.rules {
+    margin-bottom: 0;
+}
+
+.search_form {
+    width: 872px;
+    height: 543px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 29px 44px 10px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    position: relative;
+}
+
+.input {
+    margin-bottom: 30px;
+    width: 242px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.labels {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+
+}
+
+.date_input {
+    margin-top: 20px;
+    width: 176px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.checkbox label {
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+}
+
+.search_button {
+    position: absolute;
+    width: 305px;
+    height: 59px;
+    bottom: 79px;
+    right: 39px;
+}
+
+.search_form span {
+    position: absolute;
+    bottom: 32px;
+    right: 85px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+}
+
+.folder {
+    position: absolute;
+    top: 243px;
+    right: 105px;
+}
+
+.document {
+    position: absolute;
+    top: 225px;
+    right: 411px;
+}
+
+.Ilon {
+    position: absolute;
+    top: 444px;
+    right: 0;
+}
+@media (max-width:1450px) {
+    .image_block{
+        display: none;
+    }
+   }

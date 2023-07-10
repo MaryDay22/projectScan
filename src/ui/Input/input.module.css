@@ -1,0 +1,43 @@
+.labels {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+    display: block;
+    font-family: 'Inter';
+    margin-bottom: 15px;
+}
+
+.block {
+    margin-bottom: 15px;
+}
+
+.inputs {
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px 15px;
+}
+
+.err_input {
+    height: 43px;
+
+    width: 100%;
+    border: 1px solid #FF5959;
+    box-shadow: 0px 0px 20px rgba(255, 89, 89, 0.2);
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.err {
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FF5959;
+}

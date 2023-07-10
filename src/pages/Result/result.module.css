@@ -1,0 +1,80 @@
+.looking {
+    padding: 0 60px;
+    position: relative;
+    display: grid;
+    grid-template-areas: 'info image'
+    'summary summary'
+}
+.image {
+    grid-area: image;
+    direction: rtl;
+}
+.info {
+    grid-area: info;
+}
+.summary {
+    grid-area: summary;
+}
+
+.looking h2 {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    margin-bottom: 36px;
+    margin-top: 69px;
+}
+
+.looking h3 {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    margin-bottom: 17px;
+}
+
+.looking p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.looking span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #949494;
+    margin-bottom: 27px;
+}
+.results {
+    padding: 0 60px;
+}
+.results h4 {
+    
+font-family: 'Ferry';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.02em;
+margin-bottom: 58px;
+}
+.button {
+    width: 305px;
+height: 59px;
+margin: 0 auto 109px;
+}
+@media (max-width:1170px) {
+    
+}
+.info h2 {
+    margin-left: 0;
+}

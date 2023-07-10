@@ -1,0 +1,63 @@
+.loginPage {
+    margin: 70px 60px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "header header container"
+        "image image container";
+}
+
+.header {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    grid-area: header;
+}
+
+.image {
+    margin-left: 172px;
+    margin-top: 15px;
+    grid-area: image;
+}
+
+.container {
+    grid-area: container;
+    margin-left: 67px;
+}
+
+@media (max-width: 960px) {
+    .loginPage {
+        margin: 14px;
+        grid-template-areas:
+            "header"
+            "container"
+            "image";
+    }
+
+    .image {
+        margin-left: 0;
+        width: 335px;
+        height: 356px;
+    }
+
+    .container {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .header {
+        font-size: 30px;
+    }
+
+    .image {
+        margin-left: 20px;
+        width: 335px;
+        height: 356px;
+    }
+}

@@ -1,0 +1,21 @@
+.button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    border-bottom: 2px #C7C7C7 solid;
+    cursor: pointer;
+    margin-top: -15px;
+}
+.active {
+    color: #029491;
+    border-color: #029491
+}
+.unactive {
+    color: #C7C7C7
+}

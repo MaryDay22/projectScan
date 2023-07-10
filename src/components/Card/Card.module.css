@@ -1,0 +1,167 @@
+.rate_item {
+    width: 415px;
+    height: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.card_head {
+    max-width: 415px;
+    height: 132px;
+
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;
+    position: relative;
+}
+
+.card_head img {
+    position: absolute;
+    top: 11px;
+    right: 5px;
+}
+
+.card_head p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card_head h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
+
+.current {
+    background: #3BA5E0;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    height: 24px;
+    width: 34%;
+    position: absolute;
+    top: 144px;
+    right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info_rate {
+    padding: 30px 15px 24px 30px;
+}
+
+.info_rate p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    margin-bottom: 70px;
+}
+
+.more {
+    margin-top: 55px;
+    width: 355px;
+    height: 59px;
+    background: #5970FF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.more:hover {
+    border: 2px solid #30b046;
+    text-decoration: underline #30b046;
+}
+
+.active_rate {
+    background: #D2D2D2;
+    color: #000;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+
+}
+
+.old_price {
+    margin-left: 19px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.list_header p {
+
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 70px;
+}
+
+.list_header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
+
+.list {
+    padding-left: 30px;
+    margin-bottom: 55px;
+}
+
+.list li {
+    list-style-image: url("./assets/icon.png");
+}
+
+@media (max-width:420px) {
+    .rate_item {
+        width: 335px;
+        height: 472px;
+    }
+
+    .list {
+        margin-bottom: 29px;
+        font-size: 16px;
+    }
+
+    .list_header {
+        font-size: 18px;
+    }
+
+    .list_header p {
+        margin-bottom: 26px;
+    }
+
+    .info_rate p {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        margin-bottom: 36px;
+    }
+
+    .info_rate {
+        padding: 20px 24px 31px;
+    }
+}

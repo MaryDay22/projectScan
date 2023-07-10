@@ -1,0 +1,144 @@
+.document {
+    width: 641px;
+    height: 694px;
+    left: 60px;
+    top: 930px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 38px;
+    padding: 19px 30px;
+}
+
+.header {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+    margin-bottom: 24px;
+}
+
+.header span {
+    margin-right: 14px;
+}
+
+.header a {
+    color: #949494;
+    text-decoration: underline;
+}
+
+.document h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+}
+
+.type {
+    width: 157px;
+    height: 22px;
+    background: #FFB64F;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 4px;
+    margin-bottom: 17px;
+}
+
+.document img {
+    width: 581px;
+    height: 158px;
+    margin-bottom: 20px;
+}
+
+.document p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    opacity: 0.5;
+}
+
+.but {
+    width: 223px;
+    height: 46.54px;
+    background: #7CE3E1;
+    border-radius: 5px;
+    margin: 32px 262px 0 0;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.counter {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+    margin-top: 60px;
+}
+
+@media (max-width:730px) {
+    .document {
+        width: 335px;
+        padding: 19px 14px 24px;
+    }
+
+    .document h4 {
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        margin-bottom: 21px;
+    }
+
+    .header span {
+        margin-right: 9px;
+    }
+
+    .type {
+        width: 132px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+    }
+
+    .document img {
+        width: 297px;
+        height: 158px;
+        margin-bottom: 18px;
+    }
+
+    .document p {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+    }
+
+    .but {
+        width: 195px;
+        height: 40.7px;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        margin: 25px 19px 0 0;
+    }
+
+    .counter {
+        margin-top: 49px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

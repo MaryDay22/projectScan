@@ -1,0 +1,13 @@
+
+.left {
+    height: 39px;
+    width: 39px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.right {
+    height: 39px;
+    width: 39px;
+    cursor: pointer;
+}

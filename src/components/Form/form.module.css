@@ -1,0 +1,86 @@
+.account_form {
+    width: 429px;
+    height: 523px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 0 25px;
+}
+
+.lock {
+    margin-top: -55px;
+    margin-left: -67px;
+
+}
+.button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    border-bottom: 2px #C7C7C7 solid;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.button_block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.button:hover {
+    color: #14b9b7;
+    border-color: #14b9b7;
+}
+
+.reset {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #5970FF;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.socials img {
+    margin-right: 10px;
+}
+
+@media (max-width: 555px) {
+    .account_form {
+        width: 335px;
+        margin-left: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .socials img {
+        margin-right: 2px;
+    }
+}
+
+@media (max-width:455px) {
+    .account_form {
+        margin-left: -65px;
+    }
+
+    .lock {
+        margin-top: -100px;
+        margin-left: 71px;
+
+    }
+
+    .button_block {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 27px;
+    height: 158px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.table {
+    max-width: 90vw;
+    border: 2px solid #029491;
+    border-radius: 13px;
+    height: 158px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.example {
+    min-width: 133px;
+    color: #fff;
+    background-color: #029491;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0px 0px 10px;
+    align-items: center;
+}
+
+.example div {
+    height: 33%;
+    padding-top: 10%;
+}

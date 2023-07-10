@@ -1,0 +1,128 @@
+.header {
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: relative;
+    transition-duration: 300ms;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-right: 50px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 5px;
+    width: 175px;
+    height: 63px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 15px;
+    display: none;
+    /*УДАЛИ МЕНЯ */
+}
+
+.box_item {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.box_number {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.register {
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.4;
+    letter-spacing: 0.01em;
+}
+
+.slash {
+    width: 2px;
+    height: 26px;
+    background: #029491;
+    margin: 0 20px;
+}
+
+.mobile_nav {
+    display: none;
+}
+
+.mobile_nav button {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .navigation {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: flex;
+        position: absolute;
+        top:34px;
+        right: 26px;
+    }
+
+    .mobile_nav button {
+        display: flex;
+        background-color: #fff;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+.mobile_header {
+    background: #029491;
+    padding: 0 60px;
+    transition-duration: 300ms;
+}
+
+
+
+@media (max-width: 430px) {
+    .header {
+        padding: 0 18px;
+    }
+
+    .mobile_header {
+        padding: 0 18px;
+    }
+}

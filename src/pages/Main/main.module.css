@@ -1,0 +1,161 @@
+h1 {
+    text-transform: uppercase;
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.about_us {
+    display: flex;
+    padding: 0 60px;
+}
+.about_containter p {
+margin-bottom: 70px;
+}
+.but_container {
+    width: 350px;
+}
+@media (max-width:1250px) {
+    .about_us {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width:1150px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width:1060px) {
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:970px) {
+    .about_us {
+        flex-direction: column;
+
+    }
+
+    h1 {
+        line-height: 72px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:570px) {
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .but_container {
+        width: 300px;
+    }
+}
+
+.whywe {
+    margin: 110px 0px;
+
+}
+
+h2 {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    margin: 0 60px;
+    text-transform: uppercase;
+}
+
+.larry {
+    margin: 0 60px;
+}
+
+@media (max-width:660px) {
+    .larry img {
+        width: 1000px;
+    }
+
+    .larry {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width:560px) {
+    .larry img {
+        width: 850px;
+    }
+
+    .larry {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width:460px) {
+    .larry img {
+        width: 750px;
+    }
+
+    .larry {
+        margin: 0 14px;
+    }
+}
+
+.rates {
+    margin: 110px 0px;
+}
+
+.rate_block {
+    margin: 70px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.second_card {
+    background: #7CE3E1;
+}
+.second_card img {
+    top: 0;
+    right: 0;
+}
+
+.first_card {
+    background: #FFB64F;
+    width: 415px;
+}
+
+.third_card {
+    background: #000000;
+}
+.third_card h3 {
+    color: #fff;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+.card_head p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+.third_card p {
+    color: #fff;
+}

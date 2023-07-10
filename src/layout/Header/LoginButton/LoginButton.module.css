@@ -1,0 +1,24 @@
+.login_button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 65px;
+    height: 26px;
+    background: #7CE3E1;
+    border-radius: 5px;
+    color: #000;
+}
+@media (max-width: 760px) {
+    .login_button {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        width: 70%;
+        height: 52px;
+        background: #7CE3E1;
+        border-radius: 5px;
+    }
+    .login_button a {
+        color: #000;
+    }
+}
